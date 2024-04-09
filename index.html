@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+<title>Doctors lab</title>
+
+  <link rel="preload" as="image" href="images/hero-banner.png">
+  <link rel="preload" as="image" href="images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo.png" width="136" height="46" alt="Doclab home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="images/logo.png" width="136" height="46" alt="Doclab home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#specialistsss" class="navbar-link title-md">Doctors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#apppointments" class="navbar-link title-md">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#articless" class="navbar-link title-md">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contactss" class="navbar-link title-md">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn has-before title-md" id="apppointments">Make Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+    
+
+      <section class="section hero" style="background-image: url('images/hero-bg.png')" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Welcome To Doclab</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Find Nearest <br>
+              Doctor.
+            </h1>
+
+            <div class="hero-card" data-reveal="left">
+
+              <p class="title-lg card-text">
+                Search doctors. clinics. hospitals. etc.
+              </p>
+
+              <div class="wrapper">
+
+                <div class="input-wrapper title-lg">
+                  <input type="text" name="location" placeholder="Locations" class="input-field">
+
+                  <ion-icon name="location"></ion-icon>
+                </div>
+
+                <button class="btn has-before">
+                  <ion-icon name="search"></ion-icon>
+                     <span class="span title-md">Find Now</span>
+                 
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+      <section class="service" aria-label="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Psychiatry</a>
+                </h3>
+
+                <p class="card-text">
+                  the diagnosis, treatment and prevention of mental, emotional and behavioral disorders.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about psychiatry">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">neurologist</a>
+                </h3>
+
+                <p class="card-text">
+                  A neurologist is a medical doctor who diagnoses, treats and manages conditions that affect your nervous system (brain, spinal cord and nerves).
+                </p>
+
+                <button class="btn-circle" aria-label="read more about neurologist">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Pulmonology</a>
+                </h3>
+
+                <p class="card-text">
+                  Pulmonology is a branch of internal medicine that studies the lungs, trachea, associated blood vessels, and structures related to breathing and respiration1234.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pulmonology">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Orthopedics</a>
+                </h3>
+
+                <p class="card-text">
+                  Orthopedics focuses on treating the musculoskeletal system. This system comprises muscles, bones, joints, ligaments, and tendons. A person who specializes in orthopedics is known as an orthopedist.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Orthopedics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
+
+            <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+
+            <p class="section-text" data-reveal="left">
+              Health care workers are five times as likely to experience workplace violence as other workers, according to government data. I
+            </p>
+
+            <ul class="tab-list" data-reveal="left">
+
+              <li>
+                <button class="tab-btn active">Vision</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Mission</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Strategy</button>
+              </li>
+
+            </ul>
+
+            <p class="tab-text" data-reveal="left">
+              "Our vision is to revolutionize healthcare accessibility by seamlessly connecting patients with expert healthcare professionals online. We envision a future where distance and time zones are no longer barriers to quality medical care. Through our platform, we aim to empower both patients and doctors, fostering a collaborative environment that prioritizes convenience, efficiency, and personalized healthcare experiences. Our commitment is to harness technology to enhance the well-being of individuals worldwide, making healthcare accessible anytime, anywhere."
+
+
+            </p>
+
+            <div class="wrapper">
+
+              <ul class="about-list">
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">HealthConnect</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">TeleCare Network</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">MedPortal</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">CareCompass</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="right">
+            <img src="images/about-banner.png" width="554" height="678" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <section class="section listing" aria-labelledby="listing-label" id="specialistsss">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Doctors name: </p>
+
+              <h2 class="headline-md" data-reveal="left">Browse by specialist</h2>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Psychiatry</h3>
+
+                  <p class="card-text">Manas Shrinkhala</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Neurologist</h3>
+
+                  <p class="card-text">Dr Amir Khan</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pulmonology</h3>
+
+                  <p class="card-text">Dr. Ananya Patel</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                  <p class="card-text">Dr. Vikram Singhania</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pediatrics</h3>
+
+                  <p class="card-text">Dr. Aarav Sharma</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Osteology</h3>
+
+                  <p class="card-text">Dr. Neha Kapoor</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <section class="section blog" aria-labelledby="blog-label" id="articless">
+        <div class="container">
+
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+            News & Article
+          </p>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">fasting in a daily basis will increase the body metabolism</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 march, 2024</time>
+
+                <p class="card-text">
+                  Hormones are chemicals that act as messengers. They travel through your body to coordinate complicated functions, such as growth and metabolism.
+             They also play an important role in the regulation of your weight. This is because they have a strong influence on your appetite, the number of calories you eat, and how much fat you store or burn (14Trusted Source).
+                 fasting has been linked to improvements in the balance of some fat burning hormones. This could make it a helpful tool for weight management.
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">fruits enhanced the body energy level</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 march, 2024</time>
+
+                <p class="card-text">
+                  Approximately 80%–90% of fruit mass is composed of water. Along with vegetables, fruits are a fiber-rich food; fruit flesh has large amounts of soluble fiber, while fruit skin has large amounts of insoluble fiber. Fruits contain vitamins B, C, and E, beta-carotene, folate, and minerals such as Mg and K. Fruits rarely contain fat, saturated fatty acids, cholesterol, and sodium [1,2].
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">How do alcohol impact the liver?</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 march, 2024</time>
+
+                <p class="card-text">
+                  Consuming excessive amounts in a short time is termed binge drinking. This is a serious health problem that can be prevented. It is the most common and most expensive way of consuming alcohol in the United States Because binge drinkers are not dependent on or addicted to alcohol, they can easily quit. In a study conducted last year, Tapper and his team found that the highest increase in alcoholic liver cirrhosis deaths reported was among the young, between the ages of 24 and 34.
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <footer class="footer" style="background-image: url('images/footer-bg.png')" id="contactss">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="#" class="logo">
+            <img src="images/logo.png" width="136" height="46" loading="lazy" alt="Doclab home">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Main Email : <a href="mailto:ansuljain789@gmail.com" class="contact-link">ansuljain789@gmail.com</a>
+                </p>
+
+                <p>
+                  Inquiries : <a href="mailto:ansuljain789@gmail.com" class="contact-link">emeehemant159@gmail.com</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Office Telephone : <a href="tel:7205562690" class="contact-link">7205562690</a>
+                </p>
+
+                <p>
+                  Mobile : <a href="tel:7205562690" class="contact-link">7205562690</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">About Us</p>
+
+          <p class="text">
+            we embarked on a mission to build a platform that prioritizes quality, efficiency, and personalized care. Our team of experienced professionals brings together a wealth of knowledge and expertise in technology, healthcare, and customer service to ensure that every interaction on our platform is exceptional
+          </p>
+
+          <address class="address">
+            <ion-icon name="map-outline"></ion-icon>
+
+            <span class="text">
+            Near Busstand,sinapali <br>
+              nuapada,odisha, 766108
+            </span>
+          </address>
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Listing</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">How It Works</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">What We Offer</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Join as a Doctor</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">New Guests List</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">The Team List</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">Subscribe</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+
+            <button type="submit" class="btn has-before title-md" >Subscribe</button>
+          </form>
+
+          <p class="text">
+            Get the latest updates via email. Any time you may unsubscribe
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="text copyright">
+          &copy; Doclab 2024 | All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+  <script src="script.js"></script>
+
+ 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
