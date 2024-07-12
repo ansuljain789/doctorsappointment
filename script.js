@@ -61,3 +61,16 @@ window.addEventListener("load", revealElementOnScroll);
 
 
 const p=  document.querySelector
+
+const locationInput = document.getElementById('location-input');
+const findNowBtn = document.getElementById('find-now-btn');
+
+findNowBtn.addEventListener('click', () => {
+  const location = locationInput.value.trim();
+  if (location) {
+    const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`;
+    window.location.href = url;
+  } else {
+    alert('Please enter a location');
+  }
+});

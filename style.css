@@ -161,7 +161,7 @@
   
   .title-lg { font-size: var(--title-lg); }
   
-  .title-md { font-size: var(--title-md); }
+ 
   
   .title-sm { font-size: var(--title-sm); }
   
@@ -180,8 +180,7 @@
     content: "";
     position: absolute;
   }
-  
-  .btn {
+   #apppointments{
     background-color: var(--verdigris);
     color: var(--white);
     font-weight: var(--fw-700);
@@ -192,13 +191,13 @@
     border-radius: var(--radius-6);
     overflow: hidden;
   }
+ 
   
-  .btn::before {
+  #apppointments{
     top: 0;
-    left: -100%;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background-color: var(--eerie-black);
+    background-color: var(BLUE);
     border-radius: var(--radius-6);
     transition: var(--transition-2);
     z-index: -1;
